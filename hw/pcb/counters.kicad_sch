@@ -1,0 +1,9975 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8d649e22-1007-4971-beb7-5f1235b1f7e3")
+	(paper "A4")
+	(title_block
+		(company "Isaac Pawley")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "credit-card-clock_symbols:74VHC393FT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74VHC393FT"
+				(at 7.62 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/74VHC393FT_datasheet_en_20170222.pdf?did=15617&prodName=74VHC393FT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual 4 bit binary counter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74VHC393FT_1_1"
+				(rectangle
+					(start -8.89 11.43)
+					(end 8.89 -11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -11.43 6.35 0)
+					(length 2.54)
+					(name "1CK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "1CLR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "2CK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -6.35 0)
+					(length 2.54)
+					(name "2CLR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 13.97 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 8.89 180)
+					(length 2.54)
+					(name "1QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 6.35 180)
+					(length 2.54)
+					(name "1QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "1QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "1QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "2QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "2QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -6.35 180)
+					(length 2.54)
+					(name "2QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -8.89 180)
+					(length 2.54)
+					(name "2QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "credit-card-clock_symbols:SNx4AHCT08"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SNx4AHCT08"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Credit_Card_Clock_footprints:SOIC-14_P1.27"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/scls237p/scls237p.pdf?ts=1754705983918"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad AND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL AND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SNx4AHCT08_1_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SNx4AHCT08_1_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SNx4AHCT08_2_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SNx4AHCT08_2_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SNx4AHCT08_3_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SNx4AHCT08_3_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SNx4AHCT08_4_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SNx4AHCT08_4_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SNx4AHCT08_5_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SNx4AHCT08_5_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "credit-card-clock_symbols:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Credit_Card_Clock_footprints:TL1030_A"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 200.025 15.875)
+		(end 281.305 61.595)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 542b9d44-41f6-4055-a72a-8b28862da1ec)
+	)
+	(rectangle
+		(start 249.555 140.335)
+		(end 281.94 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d743b3f2-9c17-4fad-8501-4c853f41477e)
+	)
+	(rectangle
+		(start 17.78 14.605)
+		(end 146.05 192.405)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e8fdcc97-b5b6-4a0c-a4b8-fd23cb53b2cf)
+	)
+	(text "Logic Gates Power"
+		(exclude_from_sim no)
+		(at 280.162 60.198 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "25231743-1501-4345-a03a-1c339336313d")
+	)
+	(text "Each counter keeps the current hour/minute/second\nand is clocked by either the 1Hz clock or the\nprevious counters carry.\n\nTo set the time, press buttons to increment."
+		(exclude_from_sim no)
+		(at 73.406 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "57b4ee84-0a39-48be-8101-25fae698feb2")
+	)
+	(text "Timekeeping counters"
+		(exclude_from_sim no)
+		(at 144.78 190.754 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd970df0-9b69-4eab-9144-e984f0098e42")
+	)
+	(text "Unused Gate"
+		(exclude_from_sim no)
+		(at 280.924 162.56 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0b5f5de-db9a-4e3b-b049-76efb908e1b0")
+	)
+	(junction
+		(at 49.53 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a10d3be-5d52-46d0-975e-6428ca62d819")
+	)
+	(junction
+		(at 60.96 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11c00117-b444-4877-b681-78f08a930929")
+	)
+	(junction
+		(at 82.55 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1913ee2e-e3df-4c36-8611-bd404625271c")
+	)
+	(junction
+		(at 99.06 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bde7aef-eb65-4e18-ba96-e6f274d2e1a7")
+	)
+	(junction
+		(at 99.06 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37990425-bc75-474d-addd-d753d28236c4")
+	)
+	(junction
+		(at 114.3 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49b0cd8f-b4aa-420a-bfeb-05aa6cbe52b3")
+	)
+	(junction
+		(at 60.96 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49cc9345-4f37-4225-8c7d-b6161440cdf9")
+	)
+	(junction
+		(at 49.53 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4af946d5-5cee-49b7-acbf-a9ad77f9ab12")
+	)
+	(junction
+		(at 260.35 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61523bd4-e608-473c-9746-4fbbee1d223e")
+	)
+	(junction
+		(at 49.53 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69f52a02-8383-4165-b2ac-070172098745")
+	)
+	(junction
+		(at 60.96 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a084e61-5a11-4e37-8aa0-77dd7c38e250")
+	)
+	(junction
+		(at 49.53 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d34a0aa-2ce6-4344-b681-8ecc4b0f3199")
+	)
+	(junction
+		(at 49.53 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "745ff952-ad4d-4ac7-8f16-744829e1d94d")
+	)
+	(junction
+		(at 60.96 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7efdd84b-ebfc-4b1b-833f-4cccb0c01115")
+	)
+	(junction
+		(at 93.98 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "847235c0-736a-4c59-b9a3-815503c39420")
+	)
+	(junction
+		(at 60.96 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "849edad8-278c-4b23-9a52-89094917eadb")
+	)
+	(junction
+		(at 49.53 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c31b9b7-8eaf-480a-af87-31ed180cdc26")
+	)
+	(junction
+		(at 49.53 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e63802a-606c-411e-a88d-e246c5c41fe5")
+	)
+	(junction
+		(at 49.53 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98b49e29-3635-41e4-b3ef-95596e63b4ef")
+	)
+	(junction
+		(at 49.53 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9da9f355-3db7-4624-a4b8-79970425d169")
+	)
+	(junction
+		(at 60.96 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3f3ea58-cb5e-48d4-bfe1-9f5269b692f7")
+	)
+	(junction
+		(at 82.55 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9f2e15a-4787-43aa-b535-2e57dfdbc6a9")
+	)
+	(junction
+		(at 114.3 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa8be452-a691-439e-9402-c41d9841f633")
+	)
+	(junction
+		(at 60.96 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b43554fb-6ff8-4dc9-ab2f-4c05d5496e50")
+	)
+	(junction
+		(at 60.96 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2b47773-9ab7-4df5-aa3a-464a7babaf2c")
+	)
+	(junction
+		(at 220.98 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c69a3319-2b13-46cf-b16d-5f9f3538e515")
+	)
+	(junction
+		(at 260.35 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca5c8385-310a-4b06-9c93-62446fcf009c")
+	)
+	(junction
+		(at 99.06 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb767e0e-1a98-40eb-b9de-d67ca8a3e3e4")
+	)
+	(junction
+		(at 82.55 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdebb559-f7aa-40ae-a833-a869888a1710")
+	)
+	(junction
+		(at 82.55 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfec04bb-d1f8-4e93-aae9-cc84aa0fbba6")
+	)
+	(junction
+		(at 114.3 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3353eac-b636-476e-acdd-7b11fdca4c1d")
+	)
+	(junction
+		(at 60.96 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daef4836-2516-4b27-815c-b7ced577e5d3")
+	)
+	(junction
+		(at 99.06 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e06be925-ac66-450f-bb7f-d8c4f9a53a6f")
+	)
+	(junction
+		(at 82.55 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3641632-6fa0-4434-8156-a93b95984bf3")
+	)
+	(no_connect
+		(at 275.59 153.67)
+		(uuid "ee3c7dcf-fadd-4f9d-b0e8-6824198290db")
+	)
+	(wire
+		(pts
+			(xy 99.06 161.29) (xy 102.87 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000b636d-b3a5-449b-944a-af5b2f7efc16")
+	)
+	(wire
+		(pts
+			(xy 60.96 175.26) (xy 99.06 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043ab3b2-9e55-4bbc-b9fe-c4e364bc27b9")
+	)
+	(wire
+		(pts
+			(xy 243.84 24.13) (xy 260.35 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060e3677-2c70-4865-a7dc-8414d9ffeee3")
+	)
+	(wire
+		(pts
+			(xy 40.64 35.56) (xy 49.53 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd1c231-e4d0-460a-9a8e-b9ccf89696c5")
+	)
+	(wire
+		(pts
+			(xy 132.08 92.71) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e07bd27-df09-42c3-b736-9a0bc66a3626")
+	)
+	(wire
+		(pts
+			(xy 99.06 44.45) (xy 102.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145d2ec6-2f35-46af-bc00-4a52489eda16")
+	)
+	(wire
+		(pts
+			(xy 60.96 142.24) (xy 82.55 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ded0ab6-1bd6-4d84-bd2f-f7433e47c8f0")
+	)
+	(wire
+		(pts
+			(xy 60.96 158.75) (xy 93.98 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211309b0-fbf4-43df-912c-a15121def941")
+	)
+	(wire
+		(pts
+			(xy 114.3 24.13) (xy 114.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a54f5a-c494-4853-a212-25d8de3adfd6")
+	)
+	(wire
+		(pts
+			(xy 132.08 163.83) (xy 125.73 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ddaefd-f24e-4d00-bc62-c3333fb9f9d6")
+	)
+	(wire
+		(pts
+			(xy 132.08 52.07) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b0e08a-b2b2-4430-a243-666fbfa2651b")
+	)
+	(wire
+		(pts
+			(xy 99.06 54.61) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4c147c-816a-460c-9403-dc5048c06ae5")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 132.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3172a746-2e6b-477f-ab0d-e72f0c7a051a")
+	)
+	(wire
+		(pts
+			(xy 132.08 39.37) (xy 125.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324617a5-3d1a-4cf5-9593-e3a34b7036f2")
+	)
+	(wire
+		(pts
+			(xy 26.67 35.56) (xy 30.48 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c6123a-70c7-4d8a-a938-b1b6490e8678")
+	)
+	(wire
+		(pts
+			(xy 132.08 54.61) (xy 125.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d02936-a18d-4cf3-83cf-cfd14b37f302")
+	)
+	(wire
+		(pts
+			(xy 99.06 105.41) (xy 102.87 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343d6b91-3958-4eab-8174-b1e03c55945a")
+	)
+	(wire
+		(pts
+			(xy 132.08 161.29) (xy 125.73 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c9d5e5-7c44-48bf-975c-e90ff312bc44")
+	)
+	(wire
+		(pts
+			(xy 82.55 95.25) (xy 102.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4306e7ab-8fd6-4add-9cea-77a73be2e062")
+	)
+	(wire
+		(pts
+			(xy 260.35 151.13) (xy 260.35 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a4b1f8-2c0b-45f2-a754-d14477c8fd21")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f8fa80-2ae8-4662-bd9d-fc194e981b45")
+	)
+	(wire
+		(pts
+			(xy 132.08 57.15) (xy 125.73 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455331a4-7782-4220-94bc-bde290479166")
+	)
+	(wire
+		(pts
+			(xy 43.18 175.26) (xy 49.53 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ce71ae-f474-42ff-8656-c9bba0df8922")
+	)
+	(wire
+		(pts
+			(xy 49.53 52.07) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547e322d-4a0f-4bf7-8915-45e0329b281c")
+	)
+	(wire
+		(pts
+			(xy 60.96 88.9) (xy 82.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ec10d0-7a53-47e9-8ce0-d9d9715f7e97")
+	)
+	(wire
+		(pts
+			(xy 60.96 35.56) (xy 82.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5968dd20-7998-4863-a847-e47b7744517e")
+	)
+	(wire
+		(pts
+			(xy 53.34 22.86) (xy 55.88 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596d0e8d-ff84-4494-8ba7-c17557655487")
+	)
+	(wire
+		(pts
+			(xy 114.3 130.81) (xy 114.3 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eee3089-1971-4bb8-a6a6-c3d12b86e953")
+	)
+	(wire
+		(pts
+			(xy 99.06 130.81) (xy 114.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d09062-b21a-43e0-9d1a-318da5808db7")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 49.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ae044c-cf72-496d-a46b-d52441cb105a")
+	)
+	(wire
+		(pts
+			(xy 82.55 22.86) (xy 82.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a56384-5d49-488a-881a-40142774a582")
+	)
+	(wire
+		(pts
+			(xy 60.96 68.58) (xy 82.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e8eaa1-cb55-4a02-8195-58084831eef5")
+	)
+	(wire
+		(pts
+			(xy 82.55 35.56) (xy 82.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ed538e-5e67-4a54-9878-86cdf64c46f2")
+	)
+	(wire
+		(pts
+			(xy 99.06 151.13) (xy 102.87 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6818e45a-2578-479e-9834-dc118ba581c5")
+	)
+	(wire
+		(pts
+			(xy 99.06 107.95) (xy 102.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a11b469-af16-447e-a32a-a0f13ebe691a")
+	)
+	(wire
+		(pts
+			(xy 99.06 24.13) (xy 114.3 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa40170-74dc-457d-8d97-2f82e2290766")
+	)
+	(wire
+		(pts
+			(xy 43.18 158.75) (xy 49.53 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d527495-ea0c-43bb-96f4-f76e74e5105f")
+	)
+	(wire
+		(pts
+			(xy 82.55 142.24) (xy 93.98 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719ac072-138e-4a6c-bf0c-19f2bb1297aa")
+	)
+	(wire
+		(pts
+			(xy 49.53 142.24) (xy 60.96 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736b7d94-1d14-4e50-b303-b22e8d868283")
+	)
+	(wire
+		(pts
+			(xy 125.73 153.67) (xy 132.08 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752e66b8-108e-4a1d-907a-59e02ad2a293")
+	)
+	(wire
+		(pts
+			(xy 60.96 105.41) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7555928a-2b7d-460f-92d0-964eaaa06238")
+	)
+	(wire
+		(pts
+			(xy 132.08 97.79) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c36827-e070-40fa-b474-d46231084672")
+	)
+	(wire
+		(pts
+			(xy 99.06 52.07) (xy 99.06 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d1b638-67b5-43c1-bd57-24327987150c")
+	)
+	(wire
+		(pts
+			(xy 93.98 148.59) (xy 93.98 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7888373f-8b08-49a2-93ca-d6fcfd9e7fbe")
+	)
+	(wire
+		(pts
+			(xy 49.53 175.26) (xy 60.96 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7af7da-c064-42e6-8c39-f493be6f060e")
+	)
+	(wire
+		(pts
+			(xy 49.53 88.9) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd04acd-a974-4875-a365-4ff6551f1e51")
+	)
+	(wire
+		(pts
+			(xy 49.53 158.75) (xy 60.96 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb498e9-8752-40f4-b923-79bbf07acec3")
+	)
+	(wire
+		(pts
+			(xy 49.53 121.92) (xy 60.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8001641b-4bca-4b8d-bd72-c988a139f3ef")
+	)
+	(wire
+		(pts
+			(xy 132.08 44.45) (xy 125.73 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81dde351-2f18-4def-8b73-1a017457ac2c")
+	)
+	(wire
+		(pts
+			(xy 82.55 135.89) (xy 82.55 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ffe992-0a02-4f22-8db1-eb4c446eb707")
+	)
+	(wire
+		(pts
+			(xy 125.73 148.59) (xy 132.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90bb6888-00ff-41fb-b8ec-deb20724b972")
+	)
+	(wire
+		(pts
+			(xy 132.08 49.53) (xy 125.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912b5990-a4bf-4487-a506-7bcbb8717285")
+	)
+	(wire
+		(pts
+			(xy 82.55 121.92) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957330f9-eaee-4342-b08b-f23e047d7c5d")
+	)
+	(wire
+		(pts
+			(xy 60.96 121.92) (xy 82.55 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96df5911-0d6e-49a6-96a0-8d94f0c4cce6")
+	)
+	(wire
+		(pts
+			(xy 25.4 142.24) (xy 29.21 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d14e37-c3f8-4c6d-b152-631ae8354afb")
+	)
+	(wire
+		(pts
+			(xy 49.53 105.41) (xy 60.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b7582c-cbd8-4339-8148-f42ae77aefe5")
+	)
+	(wire
+		(pts
+			(xy 82.55 41.91) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d51d3d5-63d6-46f7-b09c-d01b9d2cef2d")
+	)
+	(wire
+		(pts
+			(xy 43.18 52.07) (xy 49.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d571823-af87-45de-825c-395ed23931c9")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 125.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a018698f-ff92-4410-823c-f74ae08ff850")
+	)
+	(wire
+		(pts
+			(xy 99.06 105.41) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c87926-e18a-4ac2-b580-8e60e5d9b8f7")
+	)
+	(wire
+		(pts
+			(xy 63.5 22.86) (xy 82.55 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e53e34-0a0f-4641-b16a-00cfd92a4a5c")
+	)
+	(wire
+		(pts
+			(xy 26.67 88.9) (xy 30.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada2af9d-1cd8-4987-82b0-6eda767edcc9")
+	)
+	(wire
+		(pts
+			(xy 93.98 148.59) (xy 102.87 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af29cacc-044e-4855-9c78-f7c5210347c1")
+	)
+	(wire
+		(pts
+			(xy 39.37 142.24) (xy 49.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba145fba-894d-435f-84c8-6e4f7a7060d4")
+	)
+	(wire
+		(pts
+			(xy 132.08 102.87) (xy 125.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf35631-754d-4516-9013-54e7fc49bebe")
+	)
+	(wire
+		(pts
+			(xy 125.73 100.33) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb032c34-0a97-44ef-bbeb-7652ccc8412e")
+	)
+	(wire
+		(pts
+			(xy 99.06 52.07) (xy 102.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcefd101-19ce-48ec-8e0e-430546c624e5")
+	)
+	(wire
+		(pts
+			(xy 255.27 151.13) (xy 260.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd443319-a346-4960-beb8-89417c94553c")
+	)
+	(wire
+		(pts
+			(xy 82.55 68.58) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be278b92-4227-4853-8b1b-672ba7c8e673")
+	)
+	(wire
+		(pts
+			(xy 99.06 121.92) (xy 99.06 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be805e5d-799e-48ca-8430-fe9e5a7d005b")
+	)
+	(wire
+		(pts
+			(xy 40.64 88.9) (xy 49.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf5a9630-6a98-4b10-971e-3e2bf3e89ae5")
+	)
+	(wire
+		(pts
+			(xy 99.06 77.47) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23bc390-55db-4dcd-93ab-47f26f26214b")
+	)
+	(wire
+		(pts
+			(xy 43.18 121.92) (xy 49.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a231be-2015-466d-a5d5-9c3a42fe1443")
+	)
+	(wire
+		(pts
+			(xy 49.53 35.56) (xy 60.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0b3184-74c5-48e2-821f-8066f17d582f")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 99.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d213d47f-c4fa-4378-aaab-a6792b1a4fb6")
+	)
+	(wire
+		(pts
+			(xy 132.08 158.75) (xy 125.73 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b01f34-53b0-4a69-993c-45a1690389fc")
+	)
+	(wire
+		(pts
+			(xy 82.55 68.58) (xy 82.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3da8cbb-b8d9-4370-a983-faee1febb8ca")
+	)
+	(wire
+		(pts
+			(xy 114.3 77.47) (xy 114.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4238d31-1b62-4033-a93a-9fe7b4b0102a")
+	)
+	(wire
+		(pts
+			(xy 132.08 156.21) (xy 125.73 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a88d3c-287a-4713-b937-1c2d15a77cff")
+	)
+	(wire
+		(pts
+			(xy 93.98 158.75) (xy 102.87 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d796feef-8206-4c6a-8c3f-5bc062323039")
+	)
+	(wire
+		(pts
+			(xy 25.4 134.62) (xy 25.4 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9010449-aa4d-478c-9203-da373b34d907")
+	)
+	(wire
+		(pts
+			(xy 125.73 41.91) (xy 132.08 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa14dea-9439-4562-9e1d-c7ac06d91054")
+	)
+	(wire
+		(pts
+			(xy 99.06 175.26) (xy 99.06 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db7c04ee-bc14-465d-91b4-6ecdbcb51de6")
+	)
+	(wire
+		(pts
+			(xy 204.47 24.13) (xy 220.98 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbca28e0-4362-406a-a028-34e45aa19de8")
+	)
+	(wire
+		(pts
+			(xy 93.98 151.13) (xy 99.06 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0b01d9-e18d-4a80-ac6d-333e1e07f7bb")
+	)
+	(wire
+		(pts
+			(xy 102.87 54.61) (xy 99.06 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df836681-7168-45a7-942e-ea2e98c9d46d")
+	)
+	(wire
+		(pts
+			(xy 99.06 151.13) (xy 99.06 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55a7e83-fad0-4ec3-b09d-a9a7273b2182")
+	)
+	(wire
+		(pts
+			(xy 82.55 121.92) (xy 82.55 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68f26b9-9d88-43bf-9757-a1bfda8d3c9c")
+	)
+	(wire
+		(pts
+			(xy 49.53 68.58) (xy 60.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6dc8c44-af66-4add-b704-a1c087e1638e")
+	)
+	(wire
+		(pts
+			(xy 26.67 81.28) (xy 26.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e913cb9f-08dc-4779-b42c-9ab72b5ddcee")
+	)
+	(wire
+		(pts
+			(xy 82.55 82.55) (xy 82.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f494a2-c0fe-44ef-af8e-cbf32e4c0b3e")
+	)
+	(wire
+		(pts
+			(xy 26.67 27.94) (xy 26.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebecb5db-b314-4648-86ac-5a793ceb2e86")
+	)
+	(wire
+		(pts
+			(xy 125.73 95.25) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd808b6-fa84-469d-a5bb-e4679aca4bb2")
+	)
+	(wire
+		(pts
+			(xy 132.08 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0faa94e-f13f-4933-9059-08eebccaa4cd")
+	)
+	(wire
+		(pts
+			(xy 99.06 97.79) (xy 102.87 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4740d2e-2e6a-43ab-99c7-c677ac85c651")
+	)
+	(wire
+		(pts
+			(xy 132.08 146.05) (xy 125.73 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9889530-2121-477b-954f-0d4efa733c5f")
+	)
+	(wire
+		(pts
+			(xy 43.18 105.41) (xy 49.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc5921ef-02f6-43e6-94bc-410ee59975e0")
+	)
+	(wire
+		(pts
+			(xy 132.08 151.13) (xy 125.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5bfd2e-22d1-41ae-875c-2c297b3d24b0")
+	)
+	(wire
+		(pts
+			(xy 82.55 88.9) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe7861d-8992-4185-9b81-f50f7ec01a15")
+	)
+	(global_label "S_A"
+		(shape output)
+		(at 132.08 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06fcd50a-40c9-4ac7-a3dc-06098cc1ec6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.3309 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SS_B"
+		(shape input)
+		(at 27.94 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09284938-d45d-4863-9e92-306faa06f586")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.2982 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "H_B"
+		(shape output)
+		(at 132.08 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1639aa73-0a62-4468-9731-296f0741758e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.6333 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "H_A"
+		(shape output)
+		(at 132.08 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cfd5b1c-693d-40be-8dd9-6ad95da90541")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.4519 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HH_C"
+		(shape output)
+		(at 132.08 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2750628d-9f1f-408d-aec9-9aa95e18307a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.9638 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MM_C"
+		(shape output)
+		(at 132.08 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27bc07c2-7a71-4420-8eef-8c5b40ad502c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.2056 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MM_A"
+		(shape output)
+		(at 132.08 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c502c4f-3894-457e-8796-d2bbb5fed20c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.0242 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MM_C"
+		(shape input)
+		(at 27.94 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e909803-228f-4c79-8241-bc8c3470564d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.8144 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MM_D"
+		(shape output)
+		(at 132.08 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37d334ef-2195-4090-bd13-4ba52f854f66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.2056 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SS_C"
+		(shape output)
+		(at 132.08 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37d8ca4c-c2b7-4488-9b0a-2409833976d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7218 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_A"
+		(shape output)
+		(at 132.08 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b52e07f-2fe4-419e-9f15-4c32c0b330b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.5728 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SS_D"
+		(shape output)
+		(at 132.08 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f9395a6-ecb7-4375-a586-19427f2c6689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7218 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "H_D"
+		(shape output)
+		(at 132.08 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4523b1f8-19e0-456f-988d-33107f8778d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.6333 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SS_A"
+		(shape output)
+		(at 132.08 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d5aeca5-0f74-4f55-b2ea-54c95b559697")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.5404 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_C"
+		(shape output)
+		(at 132.08 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66abe6e0-1f53-40bf-ae56-6bb472aafcf8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.7542 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "H_D"
+		(shape input)
+		(at 27.94 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67260df2-e052-4164-99c4-f3c4be4ce395")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.3867 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_B"
+		(shape output)
+		(at 132.08 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6790dd04-1204-4ed9-8a7c-47265f5acf3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.7542 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S_D"
+		(shape input)
+		(at 27.94 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78c6a1ab-049a-409f-83df-005d00ff24b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.5077 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "H_C"
+		(shape input)
+		(at 27.94 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f7107dd-0f7e-4252-8280-22764545fb4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.3867 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MM_B"
+		(shape output)
+		(at 132.08 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89482acb-ebfd-4cb5-9649-22b5aa10c89f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.2056 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HH_D"
+		(shape output)
+		(at 132.08 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89f7d08a-2f41-4710-991d-e9d8740f90bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.9638 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MM_B"
+		(shape input)
+		(at 27.94 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d7301b6-c6cc-4a94-aeac-0a20295ba9f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.8144 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S_C"
+		(shape output)
+		(at 132.08 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ec404f7-1d99-4547-a153-100552b37e6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.5123 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HH_A"
+		(shape output)
+		(at 132.08 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a355cf49-5b8c-46f6-85c2-d814a73e2291")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7824 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HH_B"
+		(shape output)
+		(at 132.08 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5096989-7703-4c6a-9235-f76907a57259")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.9638 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S_B"
+		(shape input)
+		(at 27.94 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6c10264-8210-4eab-ab6c-500aa637b02c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.5077 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "H_B"
+		(shape input)
+		(at 27.94 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8ecec2f-9b6f-4326-9f6d-3a3f8307b18f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.3867 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_D"
+		(shape output)
+		(at 132.08 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d188ab84-c38e-4755-863b-3b2c85c1210e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.7542 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "H_C"
+		(shape output)
+		(at 132.08 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4e45aa0-ee9d-4eba-8c47-627360e47019")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.6333 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_D"
+		(shape input)
+		(at 27.94 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e47aa143-6ac8-4d93-a9df-90a0c4e59072")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.2658 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S_D"
+		(shape output)
+		(at 132.08 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6c41f27-c2d5-46d7-a063-31d2b7a029f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.5123 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SS_C"
+		(shape input)
+		(at 27.94 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6eb96de-2fb6-46fd-a811-89935d646e75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.2982 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HH_B"
+		(shape input)
+		(at 27.94 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7287c55-e6c2-4c9c-85c8-5f43ac3d1427")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.0562 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SS_B"
+		(shape output)
+		(at 132.08 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e846efa1-faa9-4984-8541-0700c1c073e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7218 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S_B"
+		(shape output)
+		(at 132.08 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffc36bd0-d577-4a5a-a7c2-625f63398a76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.5123 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_B"
+		(shape input)
+		(at 27.94 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffd44fa6-2dfc-42fe-9361-e16839ab909d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.2658 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "CLOCK_IN"
+		(shape input)
+		(at 53.34 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c826806b-e2d4-4af1-8a03-89a3a298af3d")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00551a0e-50de-43fa-b1d6-981fb4d1d2db")
+		(property "Reference" "R6"
+			(at 52.07 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 52.07 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.308 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45d589e2-fc7c-4f69-b0d4-d8eb8862d43e")
+		)
+		(pin "2"
+			(uuid "8ce48eac-cd7e-4d4e-abc3-2872944595bd")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 25.4 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03a45c8a-b4aa-4562-a16c-90167a8f05b3")
+		(property "Reference" "#PWR028"
+			(at 25.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 25.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a212fe0-1654-4744-87c4-bcba50dc7b05")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03fd3b3f-9160-4375-aa2c-b2c8cbeb895c")
+		(property "Reference" "#PWR065"
+			(at 260.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3d67da8-3aba-46d0-b61f-211a015e46cd")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 204.47 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07fea859-4f24-49c1-a3f8-fad99bc9a79e")
+		(property "Reference" "C18"
+			(at 208.28 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 208.28 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 205.4352 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 204.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a266eb9-c52d-4ccc-ac7b-8da9c73eab25")
+		)
+		(pin "2"
+			(uuid "2b691569-1bed-4cde-ae0f-8d21e989ec26")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:74VHC393FT")
+		(at 114.3 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09cfeeb4-46cf-4ec5-b360-69bf494446dd")
+		(property "Reference" "U6"
+			(at 116.4433 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74VHC393FT"
+			(at 116.4433 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/74VHC393FT_datasheet_en_20170222.pdf?did=15617&prodName=74VHC393FT"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 4 bit binary counter"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb17249b-3841-47e6-b676-17a6d8e2400e")
+		)
+		(pin "7"
+			(uuid "b52f647d-c9c3-4ffc-8758-4bb9e6bd58be")
+		)
+		(pin "12"
+			(uuid "2af615ec-b691-47d6-82a2-2bc6a11c10f2")
+		)
+		(pin "3"
+			(uuid "c0410010-533f-4d57-817a-72093f798e6a")
+		)
+		(pin "13"
+			(uuid "a2bfa2af-80bd-4046-94eb-7fd9b8856ab7")
+		)
+		(pin "6"
+			(uuid "f8b60645-f55e-4ce1-89b8-470f43aaff12")
+		)
+		(pin "4"
+			(uuid "0bcc2197-5eef-4709-8350-6b01b52442ab")
+		)
+		(pin "1"
+			(uuid "ed256945-eb21-409e-9e18-12a365f335ae")
+		)
+		(pin "11"
+			(uuid "5fababe2-7153-4c52-b599-a16394fc5d4f")
+		)
+		(pin "9"
+			(uuid "a8cd6c23-ca9d-4b0a-bd09-0ff8c921847a")
+		)
+		(pin "5"
+			(uuid "d07e4c40-fa13-44e4-92b3-5945cd2e36bd")
+		)
+		(pin "14"
+			(uuid "8f4a0780-6ea1-46c9-9a56-bbc438edac91")
+		)
+		(pin "8"
+			(uuid "172275b1-175b-4d50-acbb-7c0c3e25fcd5")
+		)
+		(pin "10"
+			(uuid "67be9482-5405-4470-a734-34cae3648842")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c2e4459-d12c-41bc-9f80-97f74395fb7e")
+		(property "Reference" "C13"
+			(at 64.77 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 64.77 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 61.9252 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7ca9ad4-a9b7-4fee-a258-e2c4ecb40cb5")
+		)
+		(pin "2"
+			(uuid "f61d109c-7f32-40ca-a7a2-148a863bd520")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ce40c09-4355-4385-97b8-a68333422f99")
+		(property "Reference" "#PWR051"
+			(at 99.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d86e9e1-1bb2-43e0-9faa-9f1274e6cc1a")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12e3ecc7-3414-4a1e-8bc5-259126b3edc7")
+		(property "Reference" "#PWR044"
+			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9049df6-40eb-4302-a947-165d29908873")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 114.3 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17f6703c-94ed-4eac-a1a3-7412cb530f34")
+		(property "Reference" "#PWR056"
+			(at 114.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 114.3 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 114.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "411b4063-d2ec-47b8-9908-2d7531fe751a")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b0803fa-0d81-4f8e-9ee8-7d8ef5fa4d90")
+		(property "Reference" "#PWR039"
+			(at 49.53 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e62e41d1-062a-4999-bc9a-847ab97df1bb")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SNx4AHCT08")
+		(at 35.56 121.92 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d3596dd-72e2-4387-a655-479bb1d11110")
+		(property "Reference" "U4"
+			(at 35.5517 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SNx4AHCT08"
+			(at 35.5517 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:SOIC-14_P1.27"
+			(at 35.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls237p/scls237p.pdf?ts=1754705983918"
+			(at 35.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad AND"
+			(at 35.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a1f416b-3098-46e5-919b-683c795d27ba")
+		)
+		(pin "7"
+			(uuid "46f462a4-dd18-431d-9243-60366ab8f94e")
+		)
+		(pin "14"
+			(uuid "7a0d99db-43c5-402d-9212-81cbb8ec60af")
+		)
+		(pin "10"
+			(uuid "d33a5e2c-1b51-4a55-b568-8170fcf17a40")
+		)
+		(pin "3"
+			(uuid "57f17992-5caa-4bf3-a404-23d125df4fec")
+		)
+		(pin "9"
+			(uuid "575a205c-6737-4902-a250-ee59aa81464a")
+		)
+		(pin "5"
+			(uuid "e61470ce-1c2c-41ca-989d-8c9e56fff8d8")
+		)
+		(pin "8"
+			(uuid "15994080-7f75-4e6b-a558-bd22ccd70374")
+		)
+		(pin "1"
+			(uuid "33f4337f-ea1a-4d32-8fd8-1003561694be")
+		)
+		(pin "4"
+			(uuid "2e47c826-c43f-4ebc-b4aa-623336b6ef5f")
+		)
+		(pin "12"
+			(uuid "41fac27f-6bb7-409a-b5c2-2d569ff33acc")
+		)
+		(pin "6"
+			(uuid "9976d3ab-e44f-42ae-abb3-accb6f8b857a")
+		)
+		(pin "13"
+			(uuid "fa8e338c-f068-436b-8db7-691b7e924c6c")
+		)
+		(pin "11"
+			(uuid "32e27517-5919-442e-8d82-46924d4c7410")
+		)
+		(instances
+			(project ""
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d90b519-901d-484e-8544-29036b69f438")
+		(property "Reference" "#PWR031"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66cebfe9-6d25-4f4f-aaf1-dd9a1bb34617")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 26.67 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2143ef89-e42b-4a26-a81b-9a77f9d87afd")
+		(property "Reference" "#PWR030"
+			(at 26.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 26.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12b8cf3a-98e2-46d4-bc80-8c4ca4e15d4f")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SNx4AHCT08")
+		(at 260.35 36.83 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21bf5897-d9f7-4ab7-a4ff-71e89199828f")
+		(property "Reference" "U5"
+			(at 266.7 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SNx4AHCT08"
+			(at 266.7 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:SOIC-14_P1.27"
+			(at 260.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls237p/scls237p.pdf?ts=1754705983918"
+			(at 260.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad AND"
+			(at 260.35 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "976d2b1d-cb4f-4417-9061-09c9dcf6ecd9")
+		)
+		(pin "6"
+			(uuid "bf184156-4281-4cda-917e-b66a646bb693")
+		)
+		(pin "10"
+			(uuid "5963d3f5-f2eb-4bff-a385-25142a340140")
+		)
+		(pin "7"
+			(uuid "0ef14121-642d-4f6a-ab59-d1af884c7963")
+		)
+		(pin "3"
+			(uuid "990fcc13-b3f7-45e1-9248-2ad95fddff00")
+		)
+		(pin "1"
+			(uuid "65627712-31bd-4f89-b05d-2b3506030ac1")
+		)
+		(pin "14"
+			(uuid "5f8173fc-e385-4f56-8d3e-7cef9e61b2a9")
+		)
+		(pin "8"
+			(uuid "1e7c841f-f837-4d72-8bab-534b9ae8bdc1")
+		)
+		(pin "4"
+			(uuid "f5e15d7f-bc99-45b3-9b9c-232bdc86cee7")
+		)
+		(pin "13"
+			(uuid "200a3c6d-0649-4ab6-8939-dee84ae2e679")
+		)
+		(pin "9"
+			(uuid "3710b0a1-3f3d-4588-bed8-8376244ba3c5")
+		)
+		(pin "12"
+			(uuid "eb21c729-0ce4-446c-8f23-bcd85ac8f774")
+		)
+		(pin "11"
+			(uuid "74e073e1-227e-4f65-bd12-e5e1a0412819")
+		)
+		(pin "5"
+			(uuid "e9775b5f-5cd7-448a-9176-86463ec74ed4")
+		)
+		(instances
+			(project ""
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U5")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23104ddc-386d-4d8e-80bb-839ce4ad885e")
+		(property "Reference" "#PWR034"
+			(at 49.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "113a1f14-c03c-46ca-8817-a903699db130")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b02dac1-3958-4390-b979-37d34d3c6647")
+		(property "Reference" "C17"
+			(at 102.87 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 102.87 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 100.0252 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7205456-bb90-4b16-8cc5-c8879e020e31")
+		)
+		(pin "2"
+			(uuid "80e5c793-3202-4ddb-9b04-1b2b270eef41")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SNx4AHCT08")
+		(at 35.56 105.41 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cbe94d2-8cc3-4408-b9a5-2396f19aa3be")
+		(property "Reference" "U4"
+			(at 35.5517 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SNx4AHCT08"
+			(at 35.5517 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:SOIC-14_P1.27"
+			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls237p/scls237p.pdf?ts=1754705983918"
+			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad AND"
+			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a1f416b-3098-46e5-919b-683c795d27bb")
+		)
+		(pin "7"
+			(uuid "46f462a4-dd18-431d-9243-60366ab8f94f")
+		)
+		(pin "14"
+			(uuid "7a0d99db-43c5-402d-9212-81cbb8ec60b0")
+		)
+		(pin "10"
+			(uuid "d33a5e2c-1b51-4a55-b568-8170fcf17a41")
+		)
+		(pin "3"
+			(uuid "57f17992-5caa-4bf3-a404-23d125df4fed")
+		)
+		(pin "9"
+			(uuid "575a205c-6737-4902-a250-ee59aa81464b")
+		)
+		(pin "5"
+			(uuid "e61470ce-1c2c-41ca-989d-8c9e56fff8d9")
+		)
+		(pin "8"
+			(uuid "15994080-7f75-4e6b-a558-bd22ccd70375")
+		)
+		(pin "1"
+			(uuid "33f4337f-ea1a-4d32-8fd8-1003561694bf")
+		)
+		(pin "4"
+			(uuid "2e47c826-c43f-4ebc-b4aa-623336b6ef60")
+		)
+		(pin "12"
+			(uuid "41fac27f-6bb7-409a-b5c2-2d569ff33acd")
+		)
+		(pin "6"
+			(uuid "9976d3ab-e44f-42ae-abb3-accb6f8b857b")
+		)
+		(pin "13"
+			(uuid "fa8e338c-f068-436b-8db7-691b7e924c6d")
+		)
+		(pin "11"
+			(uuid "32e27517-5919-442e-8d82-46924d4c7411")
+		)
+		(instances
+			(project ""
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SNx4AHCT08")
+		(at 35.56 175.26 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e48c62d-36e8-4cab-b7c7-9542dd68784c")
+		(property "Reference" "U5"
+			(at 35.5517 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SNx4AHCT08"
+			(at 35.5517 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:SOIC-14_P1.27"
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls237p/scls237p.pdf?ts=1754705983918"
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad AND"
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "976d2b1d-cb4f-4417-9061-09c9dcf6ecda")
+		)
+		(pin "6"
+			(uuid "bf184156-4281-4cda-917e-b66a646bb694")
+		)
+		(pin "10"
+			(uuid "5963d3f5-f2eb-4bff-a385-25142a340141")
+		)
+		(pin "7"
+			(uuid "0ef14121-642d-4f6a-ab59-d1af884c7964")
+		)
+		(pin "3"
+			(uuid "990fcc13-b3f7-45e1-9248-2ad95fddff01")
+		)
+		(pin "1"
+			(uuid "65627712-31bd-4f89-b05d-2b3506030ac2")
+		)
+		(pin "14"
+			(uuid "5f8173fc-e385-4f56-8d3e-7cef9e61b2aa")
+		)
+		(pin "8"
+			(uuid "1e7c841f-f837-4d72-8bab-534b9ae8bdc2")
+		)
+		(pin "4"
+			(uuid "f5e15d7f-bc99-45b3-9b9c-232bdc86cee8")
+		)
+		(pin "13"
+			(uuid "200a3c6d-0649-4ab6-8939-dee84ae2e67a")
+		)
+		(pin "9"
+			(uuid "3710b0a1-3f3d-4588-bed8-8376244ba3c6")
+		)
+		(pin "12"
+			(uuid "eb21c729-0ce4-446c-8f23-bcd85ac8f775")
+		)
+		(pin "11"
+			(uuid "74e073e1-227e-4f65-bd12-e5e1a041281a")
+		)
+		(pin "5"
+			(uuid "e9775b5f-5cd7-448a-9176-86463ec74ed5")
+		)
+		(instances
+			(project ""
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ed8737d-862a-4480-8814-992feab5e8d9")
+		(property "Reference" "R7"
+			(at 52.07 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 52.07 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.308 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2216fb74-1ef4-4c81-a034-b2937be94e1c")
+		)
+		(pin "2"
+			(uuid "093092e2-0347-4ac0-b6c1-caf36e77d9d3")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35b958d9-6711-48b3-b97d-11f0d1f5de44")
+		(property "Reference" "C8"
+			(at 64.77 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 64.77 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 61.9252 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f5ae16d-e77f-44ea-a718-ed8d4d26e1f2")
+		)
+		(pin "2"
+			(uuid "2e816efb-fd54-481a-a242-7a05995c0907")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 82.55 132.08 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35fb1e0e-7ae5-49be-942f-6a4e6266a55b")
+		(property "Reference" "D4"
+			(at 85.09 133.6676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CES521"
+			(at 85.09 131.1276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbb2e3c4-e35d-48c4-bfd3-3896d599425b")
+		)
+		(pin "2"
+			(uuid "de2ac04a-f182-44fa-b01d-043b346e3939")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SNx4AHCT08")
+		(at 220.98 36.83 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f04733c-acdd-4f75-a815-65d559c730e5")
+		(property "Reference" "U4"
+			(at 227.33 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SNx4AHCT08"
+			(at 227.33 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:SOIC-14_P1.27"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls237p/scls237p.pdf?ts=1754705983918"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad AND"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a1f416b-3098-46e5-919b-683c795d27bc")
+		)
+		(pin "7"
+			(uuid "46f462a4-dd18-431d-9243-60366ab8f950")
+		)
+		(pin "14"
+			(uuid "7a0d99db-43c5-402d-9212-81cbb8ec60b1")
+		)
+		(pin "10"
+			(uuid "d33a5e2c-1b51-4a55-b568-8170fcf17a42")
+		)
+		(pin "3"
+			(uuid "57f17992-5caa-4bf3-a404-23d125df4fee")
+		)
+		(pin "9"
+			(uuid "575a205c-6737-4902-a250-ee59aa81464c")
+		)
+		(pin "5"
+			(uuid "e61470ce-1c2c-41ca-989d-8c9e56fff8da")
+		)
+		(pin "8"
+			(uuid "15994080-7f75-4e6b-a558-bd22ccd70376")
+		)
+		(pin "1"
+			(uuid "33f4337f-ea1a-4d32-8fd8-1003561694c0")
+		)
+		(pin "4"
+			(uuid "2e47c826-c43f-4ebc-b4aa-623336b6ef61")
+		)
+		(pin "12"
+			(uuid "41fac27f-6bb7-409a-b5c2-2d569ff33ace")
+		)
+		(pin "6"
+			(uuid "9976d3ab-e44f-42ae-abb3-accb6f8b857c")
+		)
+		(pin "13"
+			(uuid "fa8e338c-f068-436b-8db7-691b7e924c6e")
+		)
+		(pin "11"
+			(uuid "32e27517-5919-442e-8d82-46924d4c7412")
+		)
+		(instances
+			(project ""
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U4")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fc5ac4f-8b36-431b-8f1c-351a81ca7c13")
+		(property "Reference" "#PWR047"
+			(at 60.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f90c4459-b7aa-4408-809f-81aea04a1169")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fd6743d-10c3-449f-93ed-55a13726c0ed")
+		(property "Reference" "#PWR055"
+			(at 114.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1fcab7f-146b-4490-8add-eee005276f62")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4064bd37-bb92-428b-a715-a39ad3a0de95")
+		(property "Reference" "R10"
+			(at 52.07 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 52.07 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.308 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e761f1a-9e1a-4273-83df-06e437734c8c")
+		)
+		(pin "2"
+			(uuid "3aea5eca-1b35-44d0-bb0d-6ab1ed229b5a")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40f5d3c4-5898-4fde-9ad5-1d90f308f605")
+		(property "Reference" "#PWR053"
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f245212-014c-44fb-98d5-a0740b931f46")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "443a34f4-818d-4385-89f4-7a43a16e30c3")
+		(property "Reference" "R11"
+			(at 52.07 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 52.07 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.308 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df70d9f1-618d-4466-9f1e-a33f4b66668f")
+		)
+		(pin "2"
+			(uuid "b5b7ae9a-bbfe-442a-9b85-43989da7a14e")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 260.35 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ddf7af6-e57a-43a6-b93b-9bcf8d178b86")
+		(property "Reference" "#PWR064"
+			(at 260.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 260.35 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 260.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "099e899f-ec17-4331-9275-2824ae1d9d96")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5143c8a4-7c25-4963-a6b7-59e5757674d3")
+		(property "Reference" "C15"
+			(at 102.87 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 102.87 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 100.0252 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df12ac3a-47d2-4c14-8216-4158675c6c48")
+		)
+		(pin "2"
+			(uuid "eb5ed643-c809-413e-92a1-18e74a077c2c")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52f65936-d933-4790-9cfa-a92531cc31a1")
+		(property "Reference" "#PWR041"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef695e2d-b08e-4b73-b3ad-76dafe6d910e")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b0503bf-4235-487c-b090-ec998a633374")
+		(property "Reference" "#PWR046"
+			(at 60.96 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcdb7967-7986-4020-a661-653c7ffb0ebb")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e37492f-14f8-4817-b41b-aa3329a81190")
+		(property "Reference" "#PWR049"
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12117581-52a3-4a30-a9b6-f8cf995bb842")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e67ea08-146b-43fa-b96e-4e935c7241b9")
+		(property "Reference" "#PWR040"
+			(at 60.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d79d7e5-9675-48ba-9ef5-bff5764fc10b")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SW_Push")
+		(at 35.56 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "679709cc-88af-4060-91de-3b7f666bfd1d")
+		(property "Reference" "SW3"
+			(at 35.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MINS"
+			(at 35.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:TL1030_A"
+			(at 35.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0105b26c-5d2e-44a6-9345-9fb2d320fc82")
+		)
+		(pin "2"
+			(uuid "dabf8163-bd03-4946-92cd-dafe0eb49352")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c1d42b5-7a1a-4756-817a-be9e3a04124b")
+		(property "Reference" "#PWR035"
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bcb8579-16cf-4e1d-8846-1bddfff5776e")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f114f4e-eca4-47ed-8f30-3d643133f08d")
+		(property "Reference" "C14"
+			(at 64.77 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 64.77 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 61.9252 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e73a5a46-a08b-40c5-bde7-e39b7febce84")
+		)
+		(pin "2"
+			(uuid "a2db40c1-c533-4f94-bfc0-a0c1bd384dac")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fc5060f-1436-4580-85db-4faa5649e5c1")
+		(property "Reference" "#PWR048"
+			(at 60.96 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2511cd76-9f78-4d5e-84c4-864e7df06087")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74a36b03-79f9-4253-ac39-a2ee264c68c4")
+		(property "Reference" "#PWR057"
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60250905-d4d8-4ad7-91dd-303d55e3c64c")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd0c12f-850c-4151-b206-ca21113d8ea6")
+		(property "Reference" "#PWR061"
+			(at 243.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69841a2a-0a0f-4153-a2d4-99cb78a01784")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cfc8220-5783-4ad3-a369-384df4154af0")
+		(property "Reference" "R13"
+			(at 52.07 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 52.07 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.308 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78852a57-a347-464b-b867-d51809701b3a")
+		)
+		(pin "2"
+			(uuid "13955086-ae0f-448c-b690-3a3c33944da5")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 114.3 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8856b49b-42de-451c-9915-66694f2b6209")
+		(property "Reference" "#PWR052"
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 114.3 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 114.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b9362d6-cb6f-43f8-b9ae-075eac6ed0cd")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 93.98 154.94 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d318a6d-6402-4162-b239-68d602727185")
+		(property "Reference" "D5"
+			(at 91.44 153.3524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CES521"
+			(at 91.44 155.8924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 93.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 93.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d00142ea-8997-4fa8-9118-cf7f38649605")
+		)
+		(pin "2"
+			(uuid "6594fe31-318e-411f-a87d-1a976b8068b3")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 220.98 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eadebfa-1d4d-4c0a-acee-209d79819975")
+		(property "Reference" "#PWR059"
+			(at 220.98 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 220.98 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 220.98 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16f807dd-8bf1-4c3f-9a0f-5b887e7ad492")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f34b36d-d0df-4620-a6c8-339c5669ea13")
+		(property "Reference" "#PWR060"
+			(at 220.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b87b855-c183-4cbb-843b-6620ccf9ea43")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SW_Push")
+		(at 35.56 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "928c7834-0e4e-41a7-8301-087a51024aab")
+		(property "Reference" "SW2"
+			(at 35.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SECS"
+			(at 35.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:TL1030_A"
+			(at 35.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48565e3d-a241-48ba-9a0a-930300d0ab24")
+		)
+		(pin "2"
+			(uuid "4662cfa3-b2cd-45d6-a4a5-feae00d14a95")
+		)
+		(instances
+			(project ""
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9558510e-7b91-4516-ada9-0e85322332dd")
+		(property "Reference" "R12"
+			(at 52.07 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 52.07 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.308 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55e69ddd-443c-4004-840e-8885a5741b2b")
+		)
+		(pin "2"
+			(uuid "45251082-dfc3-48e4-9ce3-644d47f54bcc")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96defe22-d64e-4d5a-83c8-5a7905006d29")
+		(property "Reference" "#PWR032"
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38d8f5e6-381d-49eb-8ff4-d088977d624e")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "981863f6-d635-4b42-b2cc-e99785fdd26e")
+		(property "Reference" "#PWR050"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c9e508d-1c3a-4cea-9ca3-a35e8fea0b25")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SNx4AHCT08")
+		(at 35.56 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cfceb22-e1c0-470a-b759-605b4990a524")
+		(property "Reference" "U5"
+			(at 35.5517 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SNx4AHCT08"
+			(at 35.5517 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:SOIC-14_P1.27"
+			(at 35.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls237p/scls237p.pdf?ts=1754705983918"
+			(at 35.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad AND"
+			(at 35.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "976d2b1d-cb4f-4417-9061-09c9dcf6ecdb")
+		)
+		(pin "6"
+			(uuid "bf184156-4281-4cda-917e-b66a646bb695")
+		)
+		(pin "10"
+			(uuid "5963d3f5-f2eb-4bff-a385-25142a340142")
+		)
+		(pin "7"
+			(uuid "0ef14121-642d-4f6a-ab59-d1af884c7965")
+		)
+		(pin "3"
+			(uuid "990fcc13-b3f7-45e1-9248-2ad95fddff02")
+		)
+		(pin "1"
+			(uuid "65627712-31bd-4f89-b05d-2b3506030ac3")
+		)
+		(pin "14"
+			(uuid "5f8173fc-e385-4f56-8d3e-7cef9e61b2ab")
+		)
+		(pin "8"
+			(uuid "1e7c841f-f837-4d72-8bab-534b9ae8bdc3")
+		)
+		(pin "4"
+			(uuid "f5e15d7f-bc99-45b3-9b9c-232bdc86cee9")
+		)
+		(pin "13"
+			(uuid "200a3c6d-0649-4ab6-8939-dee84ae2e67b")
+		)
+		(pin "9"
+			(uuid "3710b0a1-3f3d-4588-bed8-8376244ba3c7")
+		)
+		(pin "12"
+			(uuid "eb21c729-0ce4-446c-8f23-bcd85ac8f776")
+		)
+		(pin "11"
+			(uuid "74e073e1-227e-4f65-bd12-e5e1a041281b")
+		)
+		(pin "5"
+			(uuid "e9775b5f-5cd7-448a-9176-86463ec74ed6")
+		)
+		(instances
+			(project ""
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e4aa2d4-076f-48ad-9c0c-28a47a8934cc")
+		(property "Reference" "R5"
+			(at 52.07 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 52.07 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.308 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b8cbb0c-43c2-4967-93ca-1b6cb0a5226a")
+		)
+		(pin "2"
+			(uuid "e92588a7-bb74-4630-bdfd-e18324a7cd8e")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 59.69 22.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a521518e-c4a2-49a2-a411-16f0dad8e8ca")
+		(property "Reference" "D2"
+			(at 59.69 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CES521"
+			(at 59.69 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5c6b86f-46b8-411a-9f32-285bc62778c3")
+		)
+		(pin "2"
+			(uuid "953bf4f5-2880-4854-8339-cfa449777c41")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SW_Push")
+		(at 34.29 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa2a5875-529c-41f9-a817-fabbfd80c20c")
+		(property "Reference" "SW1"
+			(at 34.29 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HOUR"
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:TL1030_A"
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 34.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c13ec86d-c212-4bef-bd2a-333b4375cbf5")
+		)
+		(pin "2"
+			(uuid "cf24c66d-95f5-4283-a4e2-b2a215a8b51e")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3f3b63b-fe80-4cde-bf20-8419e1be92cc")
+		(property "Reference" "#PWR043"
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d91f72d-d575-4f57-99cd-e06bca5ad54f")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 114.3 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9674ae8-6213-43bb-ad02-7bd51d4f13b3")
+		(property "Reference" "#PWR054"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a3f92a8-a71a-4a8f-9e3a-1e7b88e6fb20")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b96c22c4-895a-418f-8edc-dfe487daa5e2")
+		(property "Reference" "C6"
+			(at 64.77 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 64.77 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 61.9252 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f22fd88e-766c-4590-ba30-81269065b894")
+		)
+		(pin "2"
+			(uuid "660d0243-dd86-4c12-99a3-c2917ce1021b")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SNx4AHCT08")
+		(at 35.56 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb52ee2b-c22a-4b03-b1cc-62166c497fbc")
+		(property "Reference" "U4"
+			(at 35.5517 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SNx4AHCT08"
+			(at 35.5517 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:SOIC-14_P1.27"
+			(at 35.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls237p/scls237p.pdf?ts=1754705983918"
+			(at 35.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad AND"
+			(at 35.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d35b7284-e6a9-4957-ba13-b5ce8cff6ebd")
+		)
+		(pin "7"
+			(uuid "46f462a4-dd18-431d-9243-60366ab8f951")
+		)
+		(pin "14"
+			(uuid "7a0d99db-43c5-402d-9212-81cbb8ec60b2")
+		)
+		(pin "10"
+			(uuid "d33a5e2c-1b51-4a55-b568-8170fcf17a43")
+		)
+		(pin "3"
+			(uuid "bbcd7552-a301-49d1-9621-886d6390ad0e")
+		)
+		(pin "9"
+			(uuid "575a205c-6737-4902-a250-ee59aa81464d")
+		)
+		(pin "5"
+			(uuid "e61470ce-1c2c-41ca-989d-8c9e56fff8db")
+		)
+		(pin "8"
+			(uuid "15994080-7f75-4e6b-a558-bd22ccd70377")
+		)
+		(pin "1"
+			(uuid "5058a026-c0fc-4792-ba9c-900e07299be3")
+		)
+		(pin "4"
+			(uuid "2e47c826-c43f-4ebc-b4aa-623336b6ef62")
+		)
+		(pin "12"
+			(uuid "41fac27f-6bb7-409a-b5c2-2d569ff33acf")
+		)
+		(pin "6"
+			(uuid "9976d3ab-e44f-42ae-abb3-accb6f8b857d")
+		)
+		(pin "13"
+			(uuid "fa8e338c-f068-436b-8db7-691b7e924c6f")
+		)
+		(pin "11"
+			(uuid "32e27517-5919-442e-8d82-46924d4c7413")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SNx4AHCT08")
+		(at 35.56 68.58 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf7be209-a475-434a-891f-d646e91cccfa")
+		(property "Reference" "U4"
+			(at 35.5517 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SNx4AHCT08"
+			(at 35.5517 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:SOIC-14_P1.27"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls237p/scls237p.pdf?ts=1754705983918"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad AND"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a1f416b-3098-46e5-919b-683c795d27bd")
+		)
+		(pin "7"
+			(uuid "46f462a4-dd18-431d-9243-60366ab8f952")
+		)
+		(pin "14"
+			(uuid "7a0d99db-43c5-402d-9212-81cbb8ec60b3")
+		)
+		(pin "10"
+			(uuid "d33a5e2c-1b51-4a55-b568-8170fcf17a44")
+		)
+		(pin "3"
+			(uuid "57f17992-5caa-4bf3-a404-23d125df4fef")
+		)
+		(pin "9"
+			(uuid "575a205c-6737-4902-a250-ee59aa81464e")
+		)
+		(pin "5"
+			(uuid "c48456c9-308c-43c1-8acd-db1853d02a75")
+		)
+		(pin "8"
+			(uuid "15994080-7f75-4e6b-a558-bd22ccd70378")
+		)
+		(pin "1"
+			(uuid "33f4337f-ea1a-4d32-8fd8-1003561694c1")
+		)
+		(pin "4"
+			(uuid "f79a8c94-5214-4e4a-b2a5-9a485a29ea6b")
+		)
+		(pin "12"
+			(uuid "41fac27f-6bb7-409a-b5c2-2d569ff33ad0")
+		)
+		(pin "6"
+			(uuid "77092dc7-e9ce-4afe-ada8-77deafe5be19")
+		)
+		(pin "13"
+			(uuid "fa8e338c-f068-436b-8db7-691b7e924c70")
+		)
+		(pin "11"
+			(uuid "32e27517-5919-442e-8d82-46924d4c7414")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 82.55 78.74 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1ed06ae-ac4a-488f-80a2-94f899eab4ce")
+		(property "Reference" "D3"
+			(at 85.09 80.3276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CES521"
+			(at 85.09 77.7876 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fefff10b-daf8-4540-908f-187a29505e9c")
+		)
+		(pin "2"
+			(uuid "5fc9cc6a-5d2c-4c6f-9a13-282a1968f325")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 255.27 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2568242-856b-462a-8212-8d3dd7a97795")
+		(property "Reference" "#PWR063"
+			(at 255.27 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 255.27 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b53813b4-ff44-467f-80fb-e524199f859c")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3fbc8f5-89c5-4673-a572-2f468f81fbda")
+		(property "Reference" "#PWR036"
+			(at 49.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5489248c-432b-4ed7-85eb-e3a1b0225a56")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 26.67 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c88b3a0e-4b52-49ce-b83b-13c8dc66d6f9")
+		(property "Reference" "#PWR029"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 26.67 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 26.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c32b1ece-db25-44c8-86b9-a890dd0be680")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.06 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f0f3f0-ee1d-4df3-a00e-0d719a681957")
+		(property "Reference" "C16"
+			(at 102.87 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 102.87 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 100.0252 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f10c0041-1aed-4988-a7d3-f4321bc05c19")
+		)
+		(pin "2"
+			(uuid "d8c20bf6-7a63-49ac-9c42-724d38b9f10b")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:SNx4AHCT08")
+		(at 267.97 153.67 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cac977d7-9104-4b2e-aff4-11424427e0d4")
+		(property "Reference" "U5"
+			(at 267.9617 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SNx4AHCT08"
+			(at 267.9617 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "credit-card-clock_footprints:SOIC-14_P1.27"
+			(at 267.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scls237p/scls237p.pdf?ts=1754705983918"
+			(at 267.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad AND"
+			(at 267.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "976d2b1d-cb4f-4417-9061-09c9dcf6ecdc")
+		)
+		(pin "6"
+			(uuid "bf184156-4281-4cda-917e-b66a646bb696")
+		)
+		(pin "10"
+			(uuid "5963d3f5-f2eb-4bff-a385-25142a340143")
+		)
+		(pin "7"
+			(uuid "0ef14121-642d-4f6a-ab59-d1af884c7966")
+		)
+		(pin "3"
+			(uuid "990fcc13-b3f7-45e1-9248-2ad95fddff03")
+		)
+		(pin "1"
+			(uuid "65627712-31bd-4f89-b05d-2b3506030ac4")
+		)
+		(pin "14"
+			(uuid "5f8173fc-e385-4f56-8d3e-7cef9e61b2ac")
+		)
+		(pin "8"
+			(uuid "1e7c841f-f837-4d72-8bab-534b9ae8bdc4")
+		)
+		(pin "4"
+			(uuid "f5e15d7f-bc99-45b3-9b9c-232bdc86ceea")
+		)
+		(pin "13"
+			(uuid "200a3c6d-0649-4ab6-8939-dee84ae2e67c")
+		)
+		(pin "9"
+			(uuid "3710b0a1-3f3d-4588-bed8-8376244ba3c8")
+		)
+		(pin "12"
+			(uuid "eb21c729-0ce4-446c-8f23-bcd85ac8f777")
+		)
+		(pin "11"
+			(uuid "74e073e1-227e-4f65-bd12-e5e1a041281c")
+		)
+		(pin "5"
+			(uuid "e9775b5f-5cd7-448a-9176-86463ec74ed7")
+		)
+		(instances
+			(project ""
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d15cbe33-8763-4ff9-8069-bca73cade816")
+		(property "Reference" "R9"
+			(at 52.07 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 52.07 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.308 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7092e69f-931d-4eba-a641-9f9d680e36d8")
+		)
+		(pin "2"
+			(uuid "5b53b191-3a84-41ef-8af7-381484505ee5")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1337ce-333d-44f2-babf-e1a7d1be415d")
+		(property "Reference" "#PWR058"
+			(at 204.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "687d6398-3869-4230-ab20-f522ad1e2b5a")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db5204c0-4e73-4ad4-b368-bcf2b69d9aec")
+		(property "Reference" "#PWR033"
+			(at 49.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "078d0dc2-5860-4644-867a-d0e2c8d7ed9c")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de762aa9-b2ed-4b86-93b9-0ddcd8223483")
+		(property "Reference" "C9"
+			(at 64.77 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 64.77 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 61.9252 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "353705d6-c55c-42ca-a97a-d0c699366db5")
+		)
+		(pin "2"
+			(uuid "50dee761-2bcb-4f86-8c25-22b1d5193ca7")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ded209a1-fada-4780-9ed0-fb36abe75d02")
+		(property "Reference" "C12"
+			(at 64.77 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 64.77 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 61.9252 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8f00bf0-3eda-445d-9ab2-8d2e5ca3ef2c")
+		)
+		(pin "2"
+			(uuid "7166eef6-dac6-4da0-893d-931907b77ddd")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0267546-a5e6-410a-bdc1-4102f3b7c45d")
+		(property "Reference" "#PWR045"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5054f6ac-1e49-43e8-a0e7-ef8c2cd1142d")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1fa4b1d-78c1-4b9b-8cc1-d4ccbe3990f2")
+		(property "Reference" "C7"
+			(at 64.77 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 64.77 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 61.9252 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a905e56-9b10-4d55-a249-714b34f0bdc0")
+		)
+		(pin "2"
+			(uuid "4a98c314-9b4d-4e32-bcb5-899698a326e1")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5d8d556-798d-41af-849c-1084170388e8")
+		(property "Reference" "C10"
+			(at 64.77 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 64.77 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 61.9252 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8097b4a2-56b0-4de9-ae00-be88ff5d9181")
+		)
+		(pin "2"
+			(uuid "0af67c10-282c-4fe6-b1a5-62d4cb6a5afa")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:74VHC393FT")
+		(at 114.3 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef513db-0535-4af8-94c7-918488909de5")
+		(property "Reference" "U8"
+			(at 116.4433 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74VHC393FT"
+			(at 116.4433 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 114.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/74VHC393FT_datasheet_en_20170222.pdf?did=15617&prodName=74VHC393FT"
+			(at 114.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 4 bit binary counter"
+			(at 114.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "136cbbcb-f69d-4376-a8ec-123ac02c0947")
+		)
+		(pin "7"
+			(uuid "fc9065d3-feeb-4da3-8f39-290f25ffa16a")
+		)
+		(pin "12"
+			(uuid "ab3a2823-0af9-481a-a30c-3346c8c9e53b")
+		)
+		(pin "3"
+			(uuid "2c406d60-3d60-4eea-996a-6bfea5333051")
+		)
+		(pin "13"
+			(uuid "785be932-399f-4d0a-a663-792bf05333b3")
+		)
+		(pin "6"
+			(uuid "26c08efb-e719-43f7-a715-d557b38ef87f")
+		)
+		(pin "4"
+			(uuid "20a4a814-f850-4d96-acc2-2ca7de116fab")
+		)
+		(pin "1"
+			(uuid "42f1f5d8-c1a1-4fa7-aae1-b879f22fa97c")
+		)
+		(pin "11"
+			(uuid "4aab150a-3f50-476c-93d5-56eef8bb6199")
+		)
+		(pin "9"
+			(uuid "e41cdd80-84b5-4983-be51-0b177e0662eb")
+		)
+		(pin "5"
+			(uuid "e82314c2-25cf-4ead-b362-6d8d4eedb4fd")
+		)
+		(pin "14"
+			(uuid "965d3ebd-b3e5-4ed1-81ab-7513e56a55e6")
+		)
+		(pin "8"
+			(uuid "9f737249-ad3c-41d5-9012-616a8b215827")
+		)
+		(pin "10"
+			(uuid "3d87991b-8a47-4bfa-a9f8-afdfd1f30421")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f090956a-e3d3-4e27-bf0b-10f4e4b0a1fa")
+		(property "Reference" "R8"
+			(at 52.07 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 52.07 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.308 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "114f7af7-258b-4886-b578-370dcc4be410")
+		)
+		(pin "2"
+			(uuid "c8956852-8a56-4fc5-802e-6940d52c9943")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "credit-card-clock_symbols:74VHC393FT")
+		(at 114.3 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0d60374-619f-4ad4-8e7d-4a2f6f79b2ee")
+		(property "Reference" "U7"
+			(at 116.4433 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74VHC393FT"
+			(at 116.4433 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/74VHC393FT_datasheet_en_20170222.pdf?did=15617&prodName=74VHC393FT"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 4 bit binary counter"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1dd5f84-4161-4414-949f-965a213e70ff")
+		)
+		(pin "7"
+			(uuid "f6f1a249-6bb4-4d15-b179-bc5ef316e3c7")
+		)
+		(pin "12"
+			(uuid "06d5b1fa-8630-45d7-8063-0d0488ff1452")
+		)
+		(pin "3"
+			(uuid "06bc18ec-48a2-42b4-8c55-d104e7acf682")
+		)
+		(pin "13"
+			(uuid "cbaa094b-ca15-498c-8195-f430f7ddb7fe")
+		)
+		(pin "6"
+			(uuid "1b3d4a99-0cdd-4e2c-be14-b6cc190a1969")
+		)
+		(pin "4"
+			(uuid "00ad3de9-9bda-4ed8-b13e-6ffbdfea17ea")
+		)
+		(pin "1"
+			(uuid "4bf16bc5-44e0-4139-8e22-b87a5f259079")
+		)
+		(pin "11"
+			(uuid "41bc1784-9bd1-459f-9f5d-2f1784e00fb0")
+		)
+		(pin "9"
+			(uuid "d6f395d7-cbca-485d-9560-03d1faf15c13")
+		)
+		(pin "5"
+			(uuid "b72e3abc-e9c9-43d2-a87c-209daee331fe")
+		)
+		(pin "14"
+			(uuid "ea1af4ba-e564-4ba2-bd74-4b9512002a10")
+		)
+		(pin "8"
+			(uuid "96085f2b-47a0-44e7-9025-b15d3842ab4b")
+		)
+		(pin "10"
+			(uuid "81b72aa3-211a-40d0-9e3b-d2d554485895")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0f4d871-bac1-44fc-8dc3-36b3f3057a37")
+		(property "Reference" "#PWR037"
+			(at 49.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "555b0f82-49d5-4f7b-8e39-74980d00487a")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5e8e63f-9c48-46e6-90b8-66bd5b65d515")
+		(property "Reference" "C19"
+			(at 247.65 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 247.65 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 244.8052 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9424590e-01d0-4e93-adb0-98f5e7815f04")
+		)
+		(pin "2"
+			(uuid "0a16dd34-0bb0-4d06-b568-41e92d3552c0")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7e1c5d9-9683-4053-9921-4f0ae58db7bd")
+		(property "Reference" "#PWR038"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11649a3e-4b91-4413-ad6a-2fe2b2a809b6")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9eba264-dadd-462b-8e66-202079e10fb9")
+		(property "Reference" "#PWR042"
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ed16463-ed61-4d5b-9a46-9b3eb5e17805")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feb9f593-7220-4168-8c3b-4e3080db9e83")
+		(property "Reference" "C11"
+			(at 64.77 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 64.77 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 61.9252 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4c7e49f-364f-4d10-b543-9ebb5ede6f8a")
+		)
+		(pin "2"
+			(uuid "aa2207e5-fe0c-4dc9-9747-301abde604dc")
+		)
+		(instances
+			(project "Credit Card Clock"
+				(path "/ea6f0f78-58b0-4044-8c6a-30a210b8f7ba/6741955c-eb79-4cad-b581-a2e8fb7ff0e2"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
