@@ -1,25 +1,30 @@
-# Template
+# Credit Card Clock
 
-Just my template repo
+A fully functioning clock on a credit card sized PCB.
 
-<!--
 > [!IMPORTANT]
-> Important stuff goes here...
--->
+> This is currently a work in progress, things may not work at all, bear with me while I work things out!
+> Cheers! :)
 
-<!--
 ## Features
-- List of things
--->
 
-<!--
+- On board 2 CR2023 battery holders, one for timekeeping, one for external peripherals
+- On board switch for changing vairous clock funtions.
+- Builtin binary display.
+- Breakout points and mounting holes for attaching additional boards.
+
 ## To Do
-- [x] Something that has been done.
-- [ ] Something that has NOT been done.
--->
 
-# Usage
+- [ ] Add additional modular boards.
+- [ ] Find something nice to put on the back of it... Business card details?
+- [ ] Build the thing.
+
+## Fixes
+
+I'm sure there'll be loads here soon...
+
 <!--
+# Usage
 ## Hardware and setup
 -->
 
