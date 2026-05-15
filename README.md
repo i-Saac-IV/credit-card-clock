@@ -1,64 +1,61 @@
 # Credit Card Clock
-
 A fully functioning clock on a credit card sized PCB.
 
-> [!IMPORTANT]
-> This is currently a work in progress, things may not work at all, bear with me while I work things out!
-> Cheers! :)
+# Table of Contents
+- [Features](#features)
+- [Fixes and Updates](#fixes-and-updates)
+- [Pictures](#pictures)
+- [Hardware and Setup](#hardware-and-setup)
+  - [Printed Circuit Board](#printed-circuit-board)
+  - [Setting the Time](#setting-the-time)
+- [Copyright and Licensing](#copyright-and-licensing)
+- [Contact](#contact)
 
-## Features
-
-- On board 2 CR2023 battery holders, one for timekeeping, one for external peripherals
-- On board switch for changing vairous clock funtions.
-- Builtin binary display.
+# Features
+- On-board 2 CR2023 battery holders, one for timekeeping, one for external peripherals
+- On-board switch for changing vairous clock funtions.
+- Built-in binary display.
 - Breakout points and mounting holes for attaching additional boards.
 
-## To Do
+# Fixes and Updates
+> [!IMPORTANT]
+> This is currently a work in progress, things may not work at all, bear with me while I work things out!
 
-- [ ] Add additional modular boards.
-- [ ] Find something nice to put on the back of it... Business card details?
-- [ ] Build the thing.
+# Pictures
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./photos/DSC00142.jpg" height="400"><br>
+      <b>Mid soldering</b>
+    </td>
+  </tr>
+</table>
 
-## Fixes
+# Hardware and Setup
+## Printed Circuit Board
+The gerber files for PCB manufacturing can be found [here](/hw/pcb/gerbers/RevA.zip).
 
-I'm sure there'll be loads here soon...
+## Setting the Time
+The board has three buttons along the bottom of it (SW1, SW2, and SW3), pressing these buttons will increment the unit assocated with it.
 
-<!--
-# Usage
-## Hardware and setup
--->
+# Copyright and Licensing
+See [license](LICENSE) for in depth info.
 
-<!--
-## Schematic
-![schematic](/path/to/schematic.png)
--->
+Contact me if anything here is incorrect.
 
-<!--
-## Code
-Once you're ready to upload the code, firstly ensure you have installed the following libraries: (either via the built-in library manager or the following links)
-### Code Libraries
-These libraries are required to function.
-- [Lib1](https://github.com/lib1)
-
-Then ensure that the following code describes the hardware in the best possible way:
-```
-Code
-```
-Ensure you have the correct board and port selected hit upload and you should (*hopefully*) be good to go!
--->
-
-<!--
-## Bugs fixes and updates
-Once I'm happy with the state of this project, it will likely not be updated much. So updates past this point will be very sporadic.
--->
-
-## Copyright and licencing
-See [licence](license.txt) in depth info.
-
-<!--
-This repo uses the following third-party libraries:
-- **Lib1** (License): https://github.com/lib
-
-Contact me should any of this be wrong.
--->
-
+# Contact
+If you'd like to get in touch, feel free to reach out!
+<p>
+  <a href="https://github.com/i-Saac-IV">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/isaac-pawley/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.instagram.com/i.saac.0100/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="mailto:75295202+i-Saac-IV@users.noreply.github.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
